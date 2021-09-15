@@ -1,0 +1,7 @@
+D:\epc\.NET_CSharp\BTVN\TamGiac\bin\Debug\TamGiac.exe.config
+D:\epc\.NET_CSharp\BTVN\TamGiac\bin\Debug\TamGiac.exe
+D:\epc\.NET_CSharp\BTVN\TamGiac\bin\Debug\TamGiac.pdb
+D:\epc\.NET_CSharp\BTVN\TamGiac\obj\Debug\TamGiac.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\BTVN\TamGiac\obj\Debug\TamGiac.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\BTVN\TamGiac\obj\Debug\TamGiac.exe
+D:\epc\.NET_CSharp\BTVN\TamGiac\obj\Debug\TamGiac.pdb

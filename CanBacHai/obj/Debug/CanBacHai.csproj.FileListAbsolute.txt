@@ -1,0 +1,7 @@
+D:\epc\.NET_CSharp\BTVN\CanBacHai\bin\Debug\CanBacHai.exe.config
+D:\epc\.NET_CSharp\BTVN\CanBacHai\bin\Debug\CanBacHai.exe
+D:\epc\.NET_CSharp\BTVN\CanBacHai\bin\Debug\CanBacHai.pdb
+D:\epc\.NET_CSharp\BTVN\CanBacHai\obj\Debug\CanBacHai.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\BTVN\CanBacHai\obj\Debug\CanBacHai.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\BTVN\CanBacHai\obj\Debug\CanBacHai.exe
+D:\epc\.NET_CSharp\BTVN\CanBacHai\obj\Debug\CanBacHai.pdb

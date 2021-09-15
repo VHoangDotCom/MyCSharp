@@ -1,0 +1,7 @@
+D:\epc\.NET_CSharp\BTVN\XepLoaiHS\bin\Debug\XepLoaiHS.exe.config
+D:\epc\.NET_CSharp\BTVN\XepLoaiHS\bin\Debug\XepLoaiHS.exe
+D:\epc\.NET_CSharp\BTVN\XepLoaiHS\bin\Debug\XepLoaiHS.pdb
+D:\epc\.NET_CSharp\BTVN\XepLoaiHS\obj\Debug\XepLoaiHS.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\BTVN\XepLoaiHS\obj\Debug\XepLoaiHS.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\BTVN\XepLoaiHS\obj\Debug\XepLoaiHS.exe
+D:\epc\.NET_CSharp\BTVN\XepLoaiHS\obj\Debug\XepLoaiHS.pdb

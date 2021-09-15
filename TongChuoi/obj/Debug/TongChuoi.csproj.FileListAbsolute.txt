@@ -1,0 +1,6 @@
+D:\epc\.NET_CSharp\BTVN\TongChuoi\bin\Debug\TongChuoi.exe.config
+D:\epc\.NET_CSharp\BTVN\TongChuoi\bin\Debug\TongChuoi.exe
+D:\epc\.NET_CSharp\BTVN\TongChuoi\bin\Debug\TongChuoi.pdb
+D:\epc\.NET_CSharp\BTVN\TongChuoi\obj\Debug\TongChuoi.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\BTVN\TongChuoi\obj\Debug\TongChuoi.exe
+D:\epc\.NET_CSharp\BTVN\TongChuoi\obj\Debug\TongChuoi.pdb
