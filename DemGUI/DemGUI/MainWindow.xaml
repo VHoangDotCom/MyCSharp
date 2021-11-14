@@ -1,0 +1,58 @@
+﻿<Window x:Class="DemGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700"
+        FontSize="20">
+    <Grid Margin="5" Background="AliceBlue" >
+        <!--tạo Grid có 2 cột và 5 dòng-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+            Grid.RowSpan="4" BorderThickness="1" BorderBrush="Green"></Border>
+        <StackPanel  Grid.Row="0" Grid.Column="0" Orientation="Horizontal" >
+            <Label Content="Họ tên: "/>
+            <TextBox x:Name="txtHoTen"  Width="250" Height="30" Margin="0,10,0,0"/>
+        </StackPanel>
+        <GroupBox Grid.Row="1" Grid.Column="0" Header="Giới tính"
+                  Margin="5,5,0,5">
+            <StackPanel Margin="5">
+                <RadioButton x:Name="radNam" Content="Nam" IsChecked="True"/>
+                <RadioButton x:Name="radNu"  Content="Nữ" />
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="2" Grid.Column="0" Header="Tình trạng hôn nhân"
+                  Margin="5,5,0,5">
+            <StackPanel Margin="5">
+                <RadioButton x:Name="radChuaKetHon" Content="Chưa kết hôn" IsChecked="True"/>
+                <RadioButton x:Name="radDaKetHon" Content="Đã kết hôn" />
+            </StackPanel>
+        </GroupBox>
+        <StackPanel Grid.Row="3" Grid.Column="0" Margin="10">
+            <Label Content="Sở thích"/>
+            <CheckBox x:Name="chkBongDa" Content="Bóng đá"/>
+            <CheckBox x:Name="chkBoi" Content="Bơi lội"/>
+            <CheckBox x:Name="chkAmNhac" Content="Âm nhạc"/>
+            <CheckBox x:Name="chkLeoNui" Content="Leo núi"/>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="btnThem" Click="btnThem_Click"  Content="Thêm" Width="120" Height="30" Margin="0,0,20,0"/>
+            <Button x:Name="btnThoat" Click="btnThoat_Click" Content="Thoát" Width="120" Height="30"/>
+        </StackPanel>
+        <ListBox x:Name="lstPerson"  Grid.Row="0" Grid.Column="1" Grid.RowSpan="4" 
+                 Margin="10"></ListBox>
+        
+    </Grid>
+</Window>
