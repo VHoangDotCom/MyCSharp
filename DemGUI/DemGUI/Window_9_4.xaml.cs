@@ -44,7 +44,7 @@ namespace DemGUI
             }
 
             txtSokwTieuThu.Text = soKwTieuThu.ToString();
-            txtTongTieng.Text = tongTien.ToString("N0");
+            txtTongTieng.Text = tongTien.ToString();
             txtSokwTrongDinhMuc.Text = sokwTrongDinhMuc.ToString();
             txtSokwVuotDinhMuc.Text = sokwVuotDinhMuc.ToString();
         }
@@ -55,6 +55,11 @@ namespace DemGUI
             lstThongTin.Items.Add(cboHoTen.Text);
             lstThongTin.Items.Add("Số kw tieu thu: " + soKwTieuThu);
             lstThongTin.Items.Add("Tong tien: "+ tongTien.ToString("N0"));
+        }
+
+        private void btnThoat_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

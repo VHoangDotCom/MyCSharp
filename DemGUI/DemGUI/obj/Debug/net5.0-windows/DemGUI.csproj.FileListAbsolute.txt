@@ -22,3 +22,27 @@ D:\NhungNT\!Demo\LT Net-001\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.pdb
 D:\NhungNT\!Demo\LT Net-001\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.genruntimeconfig.cache
 D:\NhungNT\!Demo\LT Net-001\DemGUI\DemGUI\obj\Debug\net5.0-windows\Window_9_4.g.cs
 D:\NhungNT\!Demo\LT Net-001\DemGUI\DemGUI\obj\Debug\net5.0-windows\Window_9_4.baml
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\bin\Debug\net5.0-windows\DemGUI.exe
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\bin\Debug\net5.0-windows\DemGUI.deps.json
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\bin\Debug\net5.0-windows\DemGUI.runtimeconfig.json
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\bin\Debug\net5.0-windows\DemGUI.runtimeconfig.dev.json
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\bin\Debug\net5.0-windows\DemGUI.dll
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\bin\Debug\net5.0-windows\ref\DemGUI.dll
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\bin\Debug\net5.0-windows\DemGUI.pdb
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\Window_9_4.g.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\App.g.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI_MarkupCompile.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI_MarkupCompile.lref
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\MainWindow.baml
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\Window_9_4.baml
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.g.resources
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.AssemblyInfoInputs.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.AssemblyInfo.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.dll
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\ref\DemGUI.dll
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.pdb
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\DemGUI\DemGUI\DemGUI\obj\Debug\net5.0-windows\DemGUI.genruntimeconfig.cache
