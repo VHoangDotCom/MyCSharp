@@ -1,0 +1,44 @@
+C:\Users\Admin\source\repos\De3\De3\bin\Debug\netcoreapp3.1\De3.exe
+C:\Users\Admin\source\repos\De3\De3\bin\Debug\netcoreapp3.1\De3.deps.json
+C:\Users\Admin\source\repos\De3\De3\bin\Debug\netcoreapp3.1\De3.runtimeconfig.json
+C:\Users\Admin\source\repos\De3\De3\bin\Debug\netcoreapp3.1\De3.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\De3\De3\bin\Debug\netcoreapp3.1\De3.dll
+C:\Users\Admin\source\repos\De3\De3\bin\Debug\netcoreapp3.1\De3.pdb
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\Window2.g.cs
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3_MarkupCompile.cache
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3_MarkupCompile.lref
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\Window2.baml
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.g.resources
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.AssemblyInfo.cs
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.dll
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.pdb
+C:\Users\Admin\source\repos\De3\De3\obj\Debug\netcoreapp3.1\De3.genruntimeconfig.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\bin\Debug\netcoreapp3.1\De3.exe
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\bin\Debug\netcoreapp3.1\De3.deps.json
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\bin\Debug\netcoreapp3.1\De3.runtimeconfig.json
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\bin\Debug\netcoreapp3.1\De3.runtimeconfig.dev.json
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\bin\Debug\netcoreapp3.1\De3.dll
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\bin\Debug\netcoreapp3.1\De3.pdb
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\Window2.g.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\App.g.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3_MarkupCompile.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3_MarkupCompile.lref
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\Window2.baml
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.g.resources
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.GeneratedMSBuildEditorConfig.editorconfig
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.AssemblyInfoInputs.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.AssemblyInfo.cs
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.dll
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.pdb
+D:\epc\.NET_CSharp\Bai 9 - Giao dien do hoa (GUI)\De3\De3\obj\Debug\netcoreapp3.1\De3.genruntimeconfig.cache
