@@ -1,0 +1,7 @@
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\De1_Hoang_835_S2_C1\De1_Hoang_835_S2_C1\obj\Debug\De1_Hoang_835_S2_C1.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\De1_Hoang_835_S2_C1\De1_Hoang_835_S2_C1\obj\Debug\De1_Hoang_835_S2_C1.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\De1_Hoang_835_S2_C1\De1_Hoang_835_S2_C1\bin\Debug\De1_Hoang_835_S2_C1.exe.config
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\De1_Hoang_835_S2_C1\De1_Hoang_835_S2_C1\bin\Debug\De1_Hoang_835_S2_C1.exe
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\De1_Hoang_835_S2_C1\De1_Hoang_835_S2_C1\bin\Debug\De1_Hoang_835_S2_C1.pdb
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\De1_Hoang_835_S2_C1\De1_Hoang_835_S2_C1\obj\Debug\De1_Hoang_835_S2_C1.exe
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\De1_Hoang_835_S2_C1\De1_Hoang_835_S2_C1\obj\Debug\De1_Hoang_835_S2_C1.pdb
