@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:De3"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Background="AliceBlue" Width="800" FontSize="20">
-    <Grid Margin="10">
+    <Border BorderBrush="Yellow" BorderThickness="5">
+     <Grid Margin="10" Background="Azure">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
@@ -31,7 +32,7 @@
         <StackPanel Grid.ColumnSpan="3" Grid.Row="2" Orientation="Horizontal">
             <Label Grid.Row="2" Grid.Column="0" Content="Loai nhan vien: " Margin="20,20,20,0"/>
             <ComboBox x:Name="cboLoai" Width="315" Height="30" SelectedIndex="0" Margin="25,10,10,0">
-                <ComboBoxItem Content="Co Huu"/>
+                <ComboBoxItem IsSelected="True" Content="Co Huu"/>
                 <ComboBoxItem Content="Hop dong"/>
                 <ComboBoxItem Content="Cong tac vien"/>
             </ComboBox>
@@ -48,19 +49,77 @@
 
         <StackPanel Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,20,0,0" Orientation="Horizontal"
                     HorizontalAlignment="Center">
+            
             <Button x:Name="btnThem" Content="Nhap" Click="btnThem_Click"  Width="100" Height="40"
                     Margin="30,0,40,0">
-               
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="AliceBlue"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid Background="#FF06731F">
+                                                    <ContentPresenter TextBlock.Foreground="White" TextBlock.TextAlignment="Center" Margin="0,8,0,0" ></ContentPresenter>
+                                                </Grid>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
 
-            </Button>
+                </Button>
             <Button x:Name="btnXoa" Click="btnXoa_Click" Content="Xoa" Width="100" Height="40"
                     Margin="30,0,40,0">
-              
-            </Button>
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="AliceBlue"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid Background="Red">
+                                                    <ContentPresenter TextBlock.Foreground="White" TextBlock.TextAlignment="Center" Margin="0,8,0,0" ></ContentPresenter>
+                                                </Grid>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
             <Button x:Name="btnWindow2" Click="btnWindow2_Click" Content="Window2" Width="100" Height="40"
                     Margin="30,0,0,0">
-             
-            </Button>
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="AliceBlue"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid Background="Yellow">
+                                                    <ContentPresenter TextBlock.Foreground="White" TextBlock.TextAlignment="Center" Margin="0,8,0,0" ></ContentPresenter>
+                                                </Grid>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter Property="Background" Value="OrangeRed" />
+                                    <Setter Property="Foreground" Value="White" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
         </StackPanel>
     </Grid>
+    </Border>
 </Window>

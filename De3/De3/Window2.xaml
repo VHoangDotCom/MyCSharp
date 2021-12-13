@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:De3"
         mc:Ignorable="d"
          Title="MainWindow" Height="400" Background="AliceBlue" Width="800" FontSize="20">
-    <Grid Margin="10">
+    <Grid Margin="10" Loaded="Grid_Loaded">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
@@ -27,19 +27,19 @@
         <Label Grid.ColumnSpan="3" Content="Thong tin nhan vien" Foreground="DarkBlue"
                FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"/>
         <Label Grid.Row="1" Grid.Column="0" Content="Ho ten nhan vien: " Margin="20,0,20,0"/>
-        <TextBox x:Name="txtTen" Grid.Row="1" Grid.Column="1" Width="320" Height="30" />
+        <TextBox IsEnabled="False" x:Name="txtTen" Grid.Row="1" Grid.Column="1" Width="320" Height="30" />
         <StackPanel Grid.ColumnSpan="3" Grid.Row="2" Orientation="Horizontal">
             <Label Grid.Row="2" Grid.Column="0" Content="Loai nhan vien: " Margin="20,20,20,0"/>
-            <ComboBox x:Name="cboLoai" Width="315"  Height="30" SelectedIndex="0" Margin="25,10,10,0">
-                <ComboBoxItem Content="Co Huu"/>
+            <ComboBox IsEnabled="False" x:Name="cboLoai" Width="315"  Height="30" SelectedIndex="0" Margin="25,10,10,0">
+                <ComboBoxItem IsSelected="True" Content="Co Huu"/>
                 <ComboBoxItem Content="Hop dong"/>
                 <ComboBoxItem Content="Cong tac vien"/>
             </ComboBox>
         </StackPanel>
         <Label Grid.Row="3" Grid.Column="0" Content="Ngay sinh: " Margin="20,20,10,0"/>
-        <DatePicker x:Name="dtpBirth"  Grid.Row="3" Grid.Column="1" Margin="0,20,0,0" Width="320" Height="30"/>
+        <DatePicker IsEnabled="False" x:Name="dtpBirth"  Grid.Row="3" Grid.Column="1" Margin="0,20,0,0" Width="320" Height="30"/>
         <Label Grid.Row="4" Grid.Column="0" Content="So tien ban hang: " Margin="20,20,0,0"/>
-        <TextBox x:Name="txtTien" Grid.Row="4"  Grid.Column="1" Margin="0,20,0,0" Width="320" Height="30"/>
+        <TextBox IsEnabled="False" x:Name="txtTien" Grid.Row="4"  Grid.Column="1" Margin="0,20,0,0" Width="320" Height="30"/>
         
 
         <StackPanel Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,20,0,0" Orientation="Horizontal"

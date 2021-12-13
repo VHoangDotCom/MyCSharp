@@ -1,0 +1,7 @@
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\DemoCustomer\DemoCustomer\bin\Debug\DemoCustomer.exe.config
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\DemoCustomer\DemoCustomer\bin\Debug\DemoCustomer.exe
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\DemoCustomer\DemoCustomer\bin\Debug\DemoCustomer.pdb
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\DemoCustomer\DemoCustomer\obj\Debug\DemoCustomer.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\DemoCustomer\DemoCustomer\obj\Debug\DemoCustomer.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\DemoCustomer\DemoCustomer\obj\Debug\DemoCustomer.exe
+D:\epc\.NET_CSharp\Bai 7 - Tinh nang nang cao trong C#\DemoCustomer\DemoCustomer\obj\Debug\DemoCustomer.pdb
