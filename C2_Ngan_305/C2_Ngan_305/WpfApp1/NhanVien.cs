@@ -11,13 +11,15 @@ namespace WpfApp1
         public string hoten { get; set; }
         public string ngaysinh { get; set; }
         public string gioitinh { get; set; }
+        public string loainv { get; set; }
         public int songaylam { get; set; }
         public int luong { get; set; }
-        public NhanVien(string hoten, string ngaysinh, string gioitinh,int songaylam,int luong)
+        public NhanVien(string hoten, string ngaysinh, string gioitinh,string loainv,int songaylam,int luong)
         {
             this.hoten = hoten;
             this.ngaysinh = ngaysinh;
             this.gioitinh = gioitinh;
+            this.loainv = loainv;
             this.songaylam = songaylam;
             this.luong = luong;
         }

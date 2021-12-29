@@ -17,6 +17,7 @@
                 <DataGridTextColumn Header="Họ tên" Binding="{Binding hoten}"/>
                 <DataGridTextColumn Header="Ngày sinh" Binding="{Binding ngaysinh}"/>
                 <DataGridTextColumn Header="Giới tính" Binding="{Binding gioitinh}"/>
+                <DataGridTextColumn Header="Loại nhân viên" Binding="{Binding loainv}"/>
                 <DataGridTextColumn Header="Số ngày làm việc"  Binding="{Binding songaylam}" Width="*"/>
                 <DataGridTextColumn Header="Thành tiền"  Binding="{Binding luong}" Width="*"/>
             </DataGrid.Columns>
