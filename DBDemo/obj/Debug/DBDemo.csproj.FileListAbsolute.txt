@@ -1,0 +1,15 @@
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\bin\Debug\DBDemo.exe.config
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\bin\Debug\DBDemo.exe
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\bin\Debug\DBDemo.pdb
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\MainWindow.g.cs
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\App.g.cs
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo_MarkupCompile.cache
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo_MarkupCompile.lref
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\MainWindow.baml
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo.g.resources
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo.Properties.Resources.resources
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo.csproj.GenerateResource.cache
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo.exe
+D:\epc\.NET_CSharp\Bai on tap\DBDemo\obj\Debug\DBDemo.pdb
