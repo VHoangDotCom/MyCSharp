@@ -1,0 +1,16 @@
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo.csproj.AssemblyReference.cache
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\MainWindow.g.cs
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\App.g.cs
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo_MarkupCompile.cache
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo_MarkupCompile.lref
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\bin\Debug\EmployeeDemo.exe.config
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\bin\Debug\EmployeeDemo.exe
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\bin\Debug\EmployeeDemo.pdb
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\App.baml
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\MainWindow.baml
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo.g.resources
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo.Properties.Resources.resources
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo.csproj.GenerateResource.cache
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo.csproj.CoreCompileInputs.cache
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo.exe
+D:\epc\.NET_CSharp\Bai on tap\EmployeeDemo\EmployeeDemo\obj\Debug\EmployeeDemo.pdb
