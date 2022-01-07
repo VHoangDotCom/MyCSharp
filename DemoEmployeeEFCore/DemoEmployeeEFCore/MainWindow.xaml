@@ -1,0 +1,75 @@
+﻿<Window x:Class="DemoEmployeeEFCore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoEmployeeEFCore"
+        mc:Ignorable="d"
+        FontSize="15"
+        Foreground="Red"
+        Title="MainWindow" Height="700" Width="700">
+    <Grid Background="Beige" Margin="5" >
+        <Border BorderBrush="Green" BorderThickness="2">
+            <StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Label Foreground="Blue" FontSize="30" Content="QUẢN LÝ NHÂN VIÊN" Margin="30 5 0 10"/>
+                </StackPanel>
+
+                <!-- Mã NV -->
+                <StackPanel Orientation="Horizontal" Margin="10 5 0 10">
+                    <Label Content="Mã nhân viên:" Margin="10 0 80 0"/>
+                    <TextBox x:Name="MaNV" Width="250"></TextBox>
+                </StackPanel>
+
+                <!-- Tên NV -->
+                <StackPanel Orientation="Horizontal" Margin="10 5 0 10">
+                    <Label Content="Họ tên:" Margin="10 0 125 0"/>
+                    <TextBox  x:Name="HoTen" Width="250"></TextBox>
+                </StackPanel>
+
+                <!-- Luong-->
+                <StackPanel Orientation="Horizontal" Margin="10 5 0 10">
+                    <Label Content="Lương:" Margin="10 0 126 0"/>
+                    <TextBox  x:Name="Luong" Width="250"></TextBox>
+                </StackPanel>
+
+                <!-- Thuong -->
+                <StackPanel Orientation="Horizontal" Margin="10 5 0 10">
+                    <Label Content="Thưởng:" Margin="10 0 118 0"/>
+                    <TextBox  x:Name="Thuong" Width="250"></TextBox>
+                </StackPanel>
+
+                <!-- Mã phòng -->
+                <StackPanel Orientation="Horizontal" Margin="10 5 0 10">
+                    <Label Content="Mã phòng:" Margin="10 0 100 0"/>
+                    <TextBox  x:Name="MaPhong" Width="250"></TextBox>
+                </StackPanel>
+
+                <!-- List thong tin -->
+                <Grid Margin="10 30 10 0" Height="250">
+                    <DataGrid x:Name="danhsach" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn  Header="Mã phòng"  Width="100" Binding="{Binding MaPhong}"/>
+                            
+                            <DataGridTextColumn Header="Mã nhân viên" Width="110" Binding="{Binding MaNV}"/>
+                            <DataGridTextColumn Header="Họ tên" Width="120" Binding="{Binding HoTen}"/>
+                            <DataGridTextColumn Header="Lương" Foreground="Blue" Binding="{Binding Luong}"    Width="100"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Thưởng" Foreground="Blue"  Binding="{Binding Thuong}" Width="100"/>
+                            <DataGridTextColumn Header="Tổng tiền " Foreground="Blue" FontWeight="Bold"   Binding="{Binding Tong}" Width="*"/>
+                        </DataGrid.Columns>
+                         
+                    </DataGrid>
+                </Grid>
+                <!-- Button -->
+                <StackPanel Orientation="Horizontal" Margin="15" HorizontalAlignment="Center">
+                    <Button    Click="them_click" Content="Thêm" Height="30" Width="70" Margin="0 10 30 0"/>
+                    <Button    Click="sua_click" Content="Sửa" Height="30" Width="70" Margin="0 10 30 0"/>
+                    <Button   Click="xoa_click" Content="Xóa" Width="70" Margin="0 10 30 0"/>
+                    <Button   Click="tim_click" Content="Tìm" Width="70" Margin="0 10 0 0"/>
+
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
