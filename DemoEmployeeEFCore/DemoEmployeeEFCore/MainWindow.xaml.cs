@@ -46,7 +46,7 @@ namespace DemoEmployeeEFCore
             HoTen.Clear();
             Luong.Clear();
             Thuong.Clear();
-            MaPhong.Clear();
+            
             MaNV.Focus();
         }
 
@@ -67,7 +67,11 @@ namespace DemoEmployeeEFCore
                         };
             //Hien thi len datagrid
             danhsach.ItemsSource = query.ToList();
-            MaNV.Focus();
+
+            var query_combo = from a in db.PhongBans
+                              select a;
+            MaPhong.ItemsSource = query_combo.ToList();
+
         }
 
         //Hien thi len textbox
@@ -147,24 +151,27 @@ namespace DemoEmployeeEFCore
                     nv.Thuong = Convert.ToInt32(Thuong.Text);
                 }
 
+                pb = (PhongBan)MaPhong.SelectedItem;
+                nv.MaPhong = pb.MaPhong;
+
                 //Validate Department code
-                if (MaPhong.Text == string.Empty)
-                {
-                    MessageBox.Show("Department code is required !", "Insert failed", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
-                }
-                else
-                {
-                    nv.MaPhong = MaPhong.Text;
-                }
+                //if (MaPhong.Text == string.Empty)
+                //{
+                //    MessageBox.Show("Department code is required !", "Insert failed", MessageBoxButton.OK, MessageBoxImage.Error);
+                //    return;
+                //}
+                //else
+                //{
+                //    nv.MaPhong = MaPhong.Text;
+                //}
 
-                //Validate department code
-                var check_department = (from dp in db.PhongBans
-                                        where dp.MaPhong == MaPhong.Text
-                                        select dp).SingleOrDefault();
+                ////Validate department code
+                //var check_department = (from dp in db.PhongBans
+                //                        where dp.MaPhong == MaPhong.Text
+                //                        select dp).SingleOrDefault();
 
-                if(check_department != null)
-                {
+                //if(check_department != null)
+                //{
                     if (!db.NhanViens.Contains(nv))
                     {
                         //Add success
@@ -182,12 +189,12 @@ namespace DemoEmployeeEFCore
                         MessageBox.Show("Employee " + MaNV.Text + "  is existed ! \n\n\t Please try again !", "Insert failed",
                             MessageBoxButton.OK, MessageBoxImage.Error);
                     }
-                }
-                else
-                {
-                    MessageBox.Show("Department " + MaPhong.Text + "  is not existed ! \n\n\t Please try again !", "Insert failed",
-                            MessageBoxButton.OK, MessageBoxImage.Error);
-                }
+                //}
+                //else
+                //{
+                //    MessageBox.Show("Department " + MaPhong.Text + "  is not existed ! \n\n\t Please try again !", "Insert failed",
+                //            MessageBoxButton.OK, MessageBoxImage.Error);
+                //}
        
             }
             catch (SqlException ex)
@@ -228,29 +235,11 @@ namespace DemoEmployeeEFCore
                             sua_nv.HoTen = HoTen.Text;
                         }
 
-                        //Update Department
-                        var check_department = (from dp in db.PhongBans
-                                                where dp.MaPhong == MaPhong.Text
-                                                select dp).SingleOrDefault();
+                        PhongBan phongban_new = (PhongBan)MaPhong.SelectedItem;
+                        sua_nv.MaPhong = phongban_new.MaPhong;
 
-                        if (MaPhong.Text == string.Empty)
-                        {
-                            MessageBox.Show("Department code is required !", "Insert failed", MessageBoxButton.OK, MessageBoxImage.Error);
-                            return;
-                        }
-                        else
-                        {
-                            if(check_department != null)
-                            {
-                                sua_nv.MaPhong = MaPhong.Text;
-                            }
-                            else
-                            {
-                                MessageBox.Show("Department " + MaPhong.Text + "  is not existed ! \n\n\t Please try again !", "Insert failed",
-                                        MessageBoxButton.OK, MessageBoxImage.Error);
-                            }
-                            
-                        }
+
+
 
                         //Update Salary
                         int b;
@@ -379,6 +368,40 @@ namespace DemoEmployeeEFCore
             //Dieu huong den Window 2
             Window2 win2 = new Window2();
             win2.Show();
+        }
+
+        private void danhsach_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            hien_thi();
+        }
+
+        private bool hien_thi()
+        {
+            if (danhsach.SelectedIndex == -1)
+            {
+                MessageBox.Show("Bạn chưa chọn hàng trong DataGrid", "Thông báo");
+                return false;
+            }
+            var a = danhsach.SelectedCells[1];
+            var content = (a.Column.GetCellContent(a.Item) as TextBlock).Text;
+            var nhanvien_sua = (from f in db.NhanViens
+                                where f.MaNv == content
+                                select f).SingleOrDefault();
+            MaNV.Text = nhanvien_sua.MaNv;
+            HoTen.Text = nhanvien_sua.HoTen;
+            Luong.Text = nhanvien_sua.Luong.ToString();
+            Thuong.Text = nhanvien_sua.Thuong.ToString();
+            int i = 0;
+            for (; i < MaPhong.Items.Count; i++)
+            {
+                PhongBan phongban_new = (PhongBan)MaPhong.Items[i];
+                if (phongban_new.MaPhong == nhanvien_sua.MaPhong)
+                {
+                    break;
+                }
+            }
+            MaPhong.SelectedIndex = i;
+            return true;
         }
     }
 
